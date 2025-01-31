@@ -13,6 +13,8 @@ console.log(result);
 
 // practice
 
+// Regular function
+
 // FLABAGASTED
 
 function reversal(put) {
@@ -25,3 +27,20 @@ function reversal(put) {
 let word = "FLABAGASTED";
 const look = reversal(word);
 console.log(look);
+
+// Arrow Function
+
+// You Are Going To Make it in life , No Matter What , You can't Be Broken
+
+const mahmoud = (taiye) => {
+  let abdulmajeed = " ";
+  for (let i = taiye.length - 1; i >= 0; i--) {
+    abdulmajeed += taiye[i];
+  }
+  return abdulmajeed;
+};
+
+let wordGiven =
+  "You Are Going To Make it in life , No Matter What , You cant Be Broken";
+const reveal = mahmoud(wordGiven);
+console.log(reveal);
