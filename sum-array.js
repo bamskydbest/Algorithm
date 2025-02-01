@@ -55,3 +55,20 @@ let boy = [
 ];
 const lastMarriage = love(boy);
 console.log(lastMarriage);
+
+// Using Arrow function sum the given number in an array
+
+// let log = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+
+const sumTotal = (figure) => {
+  let summation = 0;
+
+  for (let b = 0; b < figure.length; b++) {
+    summation += figure[b];
+    console.log(" The summation of the sumtotal is " + summation);
+  }
+  return summation;
+};
+let log = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+const solution = sumTotal(log);
+console.log(solution);
