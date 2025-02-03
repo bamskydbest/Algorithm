@@ -33,3 +33,42 @@ let checkOut = [
 ];
 const resultCheck = practice(checkOut);
 console.log(resultCheck);
+
+// Regular Function
+
+// given value
+
+// [11,12,13,14,15,16,17,18,19,20,21,21,22,23,24,25,26,27,28,29,30]
+
+function love(marriage) {
+  let relationship = 0;
+
+  for (let i = 0; i < marriage.length; i++) {
+    relationship += marriage[i];
+    console.log("The sum of the given array is " + relationship);
+  }
+  return relationship;
+}
+let boy = [
+  11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 21, 22, 23, 24, 25, 26, 27, 28,
+  29, 30,
+];
+const lastMarriage = love(boy);
+console.log(lastMarriage);
+
+// Using Arrow function sum the given number in an array
+
+// let log = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+
+const sumTotal = (figure) => {
+  let summation = 0;
+
+  for (let b = 0; b < figure.length; b++) {
+    summation += figure[b];
+    console.log(" The summation of the sumtotal is " + summation);
+  }
+  return summation;
+};
+let log = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
+const solution = sumTotal(log);
+console.log(solution);
